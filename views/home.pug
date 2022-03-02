@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+    script(src="/views/script.js")
+
+block style 
+    style 
+        include style.css 
+
+block content
+    section#introsection 
+        div 
+            |Welcome to Abhay Dance Academy
+        div.small
+            |EAT DANCE SLEEP REPEAT
+    section#missionsection 
+        h2 Our Mission
+       
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="../static/img/1.png")
+                
+                div.card-content
+                    p This is the Best Dance Academy of the universe
+        div.card
+            h3 Dance the Way You Like
+            div.card-box
+                div.card-img
+                    img(src="../static/img/2.png")
+                
+                div.card-content
+                    p This is the Best Dance Academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="../static/img/3.png")
+                
+                div.card-content
+                    p This is the Best Dance Academy of the universe
+    section#sponsersection
+        h2 Our Sponser 
+        div#sponsers
+            img(src="../static/img/logo1.png", alt="Sponser image", Class="sp-image")
+            img(src="../static/img/logo2.png", alt="Sponser image", Class="sp-image")
+            img(src="../static/img/logo3.png", alt="Sponser image", Class="sp-image")
+            img(src="../static/img/logo4.png", alt="Sponser image", Class="sp-image")
+    section
+    script
+      include script.js

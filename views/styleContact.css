@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-family: 'Redressed', cursive;
+
+}
+.container{
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#myform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myinput{
+    width: 60%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 15px;
+    border: 2px solid #6f0606;;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    padding: 9px 16px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background:#6f0606;
+    margin-bottom: 12px;
+}

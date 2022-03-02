@@ -1,0 +1,19 @@
+doctype html 
+html 
+    head 
+        title Abhay Dance Academy 
+        block scripts
+        block style 
+    body 
+        nav#navbar 
+            ul
+                div#logo
+                    img(src="../static/img/logo.png")
+                    |ADA
+                li #[a(href='/' Class="active") Home]
+                li #[a(href='/') About]
+                li #[a(href='/contact') Contact Us]
+                li #[a(href='/') Class info]
+        block content
+        footer#footer 
+            |Copyright © 2019 abhaydanceacademy.com | All Rights Reserved.
